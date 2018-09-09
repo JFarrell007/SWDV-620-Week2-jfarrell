@@ -1,0 +1,50 @@
+h1 {
+    margin-top: 0;
+}
+
+form {
+    margin: 0 auto;
+    width: 400px;
+    padding: 1em;
+    border: 2px solid rgb(23, 27, 44);
+    border-radius: 1em;
+}
+
+label span {
+    display: inline-block;
+    width: 120px;
+    text-align: right;
+}
+
+input, textarea {
+    font: 1em sans-serif;
+    width: 250px;
+    box-sizing: border-box;
+    border: 1px solid #999;
+}
+
+input:focus, textarea:focus {
+    border-color: #000;
+}
+
+button {
+    margin: 10px 10px 0 150px;
+}
+
+label {
+  position: relative;
+}
+
+label em {
+  position: absolute;
+  right: 5px;
+  top: 20px;
+}
+body {
+    background-color: rgb(181, 193, 216);
+}
+table {
+    /*border-spacing: 5px 12px;*/
+    /*padding: 0 8px 8px 0;*/
+    border: 1px solid #999;
+}

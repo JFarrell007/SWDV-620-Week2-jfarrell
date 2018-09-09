@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Favorite Books</title>
+    <link href="theme.css" rel="stylesheet">
+  </head>
+  <body>
+    <table border="2" width="100%" cellpadding="4" cellspacing="3">
+        <tr align=center bgcolor=gray>
+            <th colspan=4>Favorite Books</th>
+        </tr>
+        <tr align=center bgcolor=gray>
+             <th>Title</th>
+             <th>Author</th>
+             <th>Year</th>
+             <th>Links</th>
+        </tr>
+        <tr align=center>
+            <td>Playing with the Enemy</td>
+            <td>Gary W. Moore</td>
+            <td>2006</td>
+            <td><a href="https://en.wikipedia.org/wiki/Playing_with_the_Enemy" title="Go to Wiki" target="_blank"> Wiki</a></td>
+        </tr>
+        <tr align=center>
+            <td>Ulysses</td>
+            <td>James Joyce</td>
+            <td>1922</td>
+            <td><a href="https://en.wikipedia.org/wiki/Ulysses_(novel)" title="Go to Wiki" target="_blank"> Wiki</a></td>
+        </tr>
+        <tr align=center>
+                <td>Catch-22</td>
+                <td>Joseph Heller</td>
+                <td>1961</td>
+                <td><a href="https://en.wikipedia.org/wiki/Catch-22" title="Go to Wiki" target="_blank"> Wiki</a></td>
+        </tr>
+        <tr align=center>
+                <td>A Dog's Purpose</td>
+                <td>W. Bruce Cameron</td>
+                <td>2010</td>
+                <td><a href="https://en.wikipedia.org/wiki/A_Dog%27s_Purpose" title="Go to Wiki" target="_blank"> Wiki</a></td>
+        </tr>    
+     </table> 
+     <form action="submit.php" target="_blank" method="post">
+        <h3>Post Comment</h3>
+            <p>
+                <label for="name">
+                    <span>Username: </span>
+                    <strong><abbr title="required">*</abbr></strong>
+                </label>
+                <input type="text" id="name" name="username">
+            </p>
+            <p>
+                <label for="pwd">
+                    <span>Password: </span>
+                    <strong><abbr title="required">*</abbr></strong>
+                </label>
+                <input type="password" id="pwd" name="password">
+            </p>  
+            <p>
+                <label for="cmt">
+                    <span>Comment:</span>
+                    <strong><abbr title="required">*</abbr></strong>
+                </label>
+                <textarea type="submit" id="cmt" name="comment">Comment</textarea>  
+            </p>
+            <button input type="submit">Submit </button>
+            <button type="reset" value="Reset">Reset</button>  
+     </form> 
+  </body>
+</html>
